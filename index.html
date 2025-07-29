@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Murali Karumuri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="cube">
+                <div class="face front">M</div>
+                <div class="face back">M</div>
+                <div class="face right">K</div>
+                <div class="face left">K</div>
+                <div class="face top">M</div>
+                <div class="face bottom">K</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-profile-photo">
+                    <img src="mohan.jpg" alt="MK" class="logo-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="logo-photo-placeholder">
+                        <span class="logo-text">MK</span>
+                    </div>
+                </div>
+                <span class="logo-name">Mohan Karumuri</span>
+            </div>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#strengths" class="nav-link">Strengths</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hello, I'm</span>
+                        <span class="title-name">Mohan Murali Karumuri</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate developer creating innovative solutions with modern technologies
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-code"></i>
+                            View My Work
+                        </a>
+                        <a href="MOHAN-MURALI-KARUMURI-FlowCV-Resume-20250226 (1).pdf" class="btn btn-outline" target="_blank">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-profile-photo">
+                        <img src="mohan.jpg" alt="Mohan Murali Karumuri" class="hero-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="hero-profile-placeholder">
+                            <div class="profile-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="profile-info">
+                                <h3>Mohan Murali Karumuri</h3>
+                                <p>Software Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                        <div class="shape shape-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-text">Scroll Down</div>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-content">
+                        <h3>Professional Summary</h3>
+                        <p>
+                            🎓 Bachelor of Technology - Computer Science Engineering<br>
+                            📚 Currently enhancing my skills in DSA, Docker, and DevOps tools<br>
+                            🤖 Exploring AI-powered automation and chatbot projects using openAI and prompt engineering
+                        </p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <!--<div class="stat-item">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Qualifications</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Bachelor of Technology - Computer Science Engineering</h3>
+                            <h4>Annamacharya Institute of Technology and Sciences,Rajampet</h4>
+                            <span class="education-date">2023 - 2027</span>
+                            <p>Specialized in software engineering, data structures, algorithms, and web development. Achieved excellent academic performance with focus on practical application of programming concepts.</p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Data Structures & Algorithms</span>
+                                <span class="subject-tag">Object Oriented Programming</span>
+                                <span class="subject-tag">Database Management Systems</span>
+                                <span class="subject-tag">Web Technologies</span>
+                                <span class="subject-tag">Software Engineering</span>
+                                <span class="subject-tag">Computer Networks</span>
+                            </div>
+                            <div class="academic-achievements">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                <li>CGPA: 9.23/10 </li>
+                                <li>Dean's List for Academic Excellence</li>
+                                <li>Best Project Award for Final Year Project</li>
+                                <li>Active participant in coding competitions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Intermediate (12th Grade) - MPC</h3>
+                            <h4>Sai Parameswara Junior College</h4>
+                            <span class="education-date">2021 - 2023</span>
+                            <p>Completed intermediate education with Mathematics, Physics, and Chemistry. Built strong foundation in analytical thinking and problem-solving skills.</p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Mathematics</span>
+                                <span class="subject-tag">Physics</span>
+                                <span class="subject-tag">Chemistry</span>
+                                <span class="subject-tag">English</span>
+                            </div>
+                            <div class="academic-achievements">
+                                <h4>Performance:</h4>
+                                <ul>
+                                <li>Percentage: 95% (Please update with actual percentage)</li>
+                                <li>Secured top rank in college</li>
+                                <li>Participated in science exhibitions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Secondary School Certificate (10th Grade)</h3>
+                            <h4>ZPH School,Veparala</h4>
+                            <span class="education-date">2020 - 2021</span>
+                            <p>Completed secondary education with excellent academic performance. Built strong foundation in core subjects including Mathematics, Science, and English Literature.</p>
+                            <div class="education-subjects">
+                                <span class="subject-tag">Mathematics</span>
+                                <span class="subject-tag">Science</span>
+                                <span class="subject-tag">English</span>
+                                <span class="subject-tag">Social Studies</span>
+                                <span class="subject-tag">Hindi</span>
+                            </div>
+                            <div class="academic-achievements">
+                                <h4>Academic Performance:</h4>
+                                <ul>
+                                <li>CGPA: 9.2/10 (Please update with actual CGPA)</li>
+                                <li>School topper in Mathematics</li>
+                                <li>Active participant in science fairs</li>
+                                <li>Member of school debate team</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span>Database</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <span>API Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-github"></i></div>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                            <span>Command Line</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="floating-ball"></div>
+        <div class="floating-ball"></div>
+        <div class="floating-ball"></div>
+        <div class="container">
+            <h2 class="section-title">Professional Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Full Stack Web Development</h3>
+                            <p class="cert-issuer">freeCodeCamp</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">HTML/CSS</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Node.js</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="#" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Introduction to Prompt Engineering</h3>
+                            <p class="cert-issuer">IBM</p>
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">Prompt Design</span>
+                        <span class="skill-badge">Few-shot Learning</span>
+                        <span class="skill-badge">Instruction Tuning</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="IBM.jpg" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Excel</h3>
+                            <p class="cert-issuer">Davidson College</p>
+                            <span class="cert-date">2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">Process automation</span>
+                        <span class="skill-badge">Report building</span>
+                        <span class="skill-badge">Data interpretations</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="davidson.jpg" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+               <!--<div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>MongoDB for Developers</h3>
+                            <p class="cert-issuer">MongoDB University</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">MongoDB</span>
+                        <span class="skill-badge">NoSQL</span>
+                        <span class="skill-badge">Database Design</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="https://university.mongodb.com/certification/your-id" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>React Development</h3>
+                            <p class="cert-issuer">Coursera</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">React.js</span>
+                        <span class="skill-badge">Redux</span>
+                        <span class="skill-badge">Component Design</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="https://www.coursera.org/verify/your-certificate-id" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certification-card">
+                    <div class="cert-header">
+                        <div class="cert-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Git & Version Control</h3>
+                            <p class="cert-issuer">Udemy</p>
+                            <span class="cert-date">2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-skills">
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">Version Control</span>
+                    </div>
+                    <div class="cert-link">
+                        <a href="https://www.udemy.com/certificate/your-certificate-id" class="view-cert-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-slider">
+                <div class="projects-track">
+                    <div class="project-slide active">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Project">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="https://github.com/mohanmurali2006" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>ShopSphere - E-Commerce Platform</h3>
+                                <p>Modern full-stack e-commerce platform with advanced features including real-time inventory management, secure payment processing, user reviews, and admin dashboard with analytics.</p>
+                                <div class="project-features">
+                                    <span class="feature-item">🛒 Shopping Cart</span>
+                                    <span class="feature-item">💳 Payment Gateway</span>
+                                    <span class="feature-item">📊 Admin Dashboard</span>
+                                    <span class="feature-item">⭐ Review System</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Stripe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Project">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="https://github.com/mohanmurali2006" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>AI Study Companion</h3>
+                                <p>Intelligent learning platform powered by AI that provides personalized study plans, interactive quizzes, progress tracking, and smart content recommendations based on learning patterns.</p>
+                                <div class="project-features">
+                                    <span class="feature-item">🤖 AI-Powered</span>
+                                    <span class="feature-item">📚 Smart Learning</span>
+                                    <span class="feature-item">📈 Progress Tracking</span>
+                                    <span class="feature-item">🎯 Personalized</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">TensorFlow</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Project">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="https://github.com/mohanmurali2006" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>CryptoTracker Pro</h3>
+                                <p>Real-time cryptocurrency tracking application with advanced charting, portfolio management, price alerts, news integration, and technical analysis tools for crypto enthusiasts.</p>
+                                <div class="project-features">
+                                    <span class="feature-item">📊 Live Charts</span>
+                                    <span class="feature-item">💼 Portfolio</span>
+                                    <span class="feature-item">🔔 Price Alerts</span>
+                                    <span class="feature-item">📰 News Feed</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Vue.js</span>
+                                    <span class="tech-tag">Chart.js</span>
+                                    <span class="tech-tag">WebSocket</span>
+                                    <span class="tech-tag">Redis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Project">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="https://github.com/mohanmurali2006" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>TeamFlow - Collaboration Hub</h3>
+                                <p>Comprehensive team collaboration platform with real-time messaging, video calls, file sharing, project management, and integrated productivity tools for remote teams.</p>
+                                <div class="project-features">
+                                    <span class="feature-item">💬 Real-time Chat</span>
+                                    <span class="feature-item">📹 Video Calls</span>
+                                    <span class="feature-item">📁 File Sharing</span>
+                                    <span class="feature-item">📋 Task Management</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Socket.io</span>
+                                    <span class="tech-tag">WebRTC</span>
+                                    <span class="tech-tag">Express</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="project-placeholder">
+                                    <i class="fas fa-gamepad"></i>
+                                </div>
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Project">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="https://github.com/mohanmurali2006" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>GameVerse - 3D Web Games</h3>
+                                <p>Interactive 3D web gaming platform featuring multiple games, leaderboards, achievements system, and multiplayer functionality built with cutting-edge web technologies.</p>
+                                <div class="project-features">
+                                    <span class="feature-item">🎮 3D Graphics</span>
+                                    <span class="feature-item">🏆 Leaderboards</span>
+                                    <span class="feature-item">👥 Multiplayer</span>
+                                    <span class="feature-item">🎯 Achievements</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Three.js</span>
+                                    <span class="tech-tag">WebGL</span>
+                                    <span class="tech-tag">Socket.io</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                        <span class="dot" data-slide="4"></span>
+                    </div>
+                    <button class="slider-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section id="strengths" class="strengths">
+        <div class="container">
+            <h2 class="section-title">My Core Strengths</h2>
+            <div class="strengths-grid">
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Problem Solving</h3>
+                    <p>Strong analytical thinking and ability to break down complex problems into manageable solutions. I approach challenges with a systematic mindset and creative problem-solving techniques.</p>
+                </div>
+                
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Quick Learner</h3>
+                    <p>Rapid adaptation to new technologies and frameworks. I have a natural curiosity and dedication to continuous learning, keeping up with industry trends and best practices.</p>
+                </div>
+                
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Collaboration</h3>
+                    <p>Excellent communication skills and ability to work effectively in cross-functional teams. I believe in knowledge sharing and collaborative problem-solving approaches.</p>
+                </div>
+                
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Clean Code Advocate</h3>
+                    <p>Strong emphasis on writing maintainable, scalable, and well-documented code. I follow industry standards and best practices to ensure code quality and readability.</p>
+                </div>
+                
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Management</h3>
+                    <p>Efficient project planning and deadline management skills. I prioritize tasks effectively and deliver quality work within specified timeframes without compromising standards.</p>
+                </div>
+                
+                <div class="strength-card">
+                    <div class="strength-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Creative Thinking</h3>
+                    <p>Innovative approach to software development with focus on user experience. I combine technical expertise with creative solutions to build engaging applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>mohanmuralik2006@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 6281246287</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/mohanmurali2006</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Mohan Murali Karumuri. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/mohanmurali2006" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mohanmuralik2006@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:6281246287" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

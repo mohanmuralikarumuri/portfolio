@@ -1,0 +1,11 @@
+<!-- This is a placeholder file. Replace this with your actual profile photo -->
+<!-- 
+Instructions for adding your profile photo:
+1. Take a high-quality professional photo (preferably square format)
+2. Name it "profile-photo.jpg" 
+3. Place it in the same folder as your HTML file
+4. The image should be at least 500x500 pixels for best quality
+5. Supported formats: .jpg, .jpeg, .png, .webp
+
+If no image is provided, a default profile icon will be displayed instead.
+-->
