@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://mohanmuralikarumuri.github.io/portfolio-original/) *(Update with your actual GitHub Pages URL)*
+[View Live Portfolio]( https://mohanmuralikarumuri.github.io/portfolio/) *(Update with your actual GitHub Pages URL)*
 
 ## 📋 Table of Contents
 
